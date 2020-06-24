@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Echoing a file') {
       steps {
-        sh 'echo "Este pipeline fue creado con blueocean"'
+        sh 'echo "This a file from version control"'
       }
     }
 
