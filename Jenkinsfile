@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Echoing a file') {
       steps {
-        sh 'echo "This a file from version control, 9th commit"'
+        sh 'echo "This a file from version control, 10th commit"'
       }
     }
 
